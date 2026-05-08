@@ -252,3 +252,21 @@ Developed as part of a university mobile application development assignment focu
 - Intelligent Mobile Systems
 - Emerging Technologies
 - User-Centred Mobile Design
+---
+
+# API's Used
+
+- Geocoding API
+> https://geocoding-api.open-meteo.com/v1/search
+>> Used in Tab 2 search to find matching cities (including same-name cities in different countries/regions).
+
+- Forecast API
+> https://api.open-meteo.com/v1/forecast
+>> Used in Tab 1 weather cards for current weather data and hourly prediction inputs (temperature, UV, weather code, wind, humidity, day/night, hourly forecast fields).
+
+## Android Studio, app uses platform/framework APIs/libraries:
+
+- Room (local DB for history tab)
+- SharedPreferences (saved tracked-city state)
+- OkHttp (HTTP client for API calls)
+- Jetpack Compose / Material3 (UI)
