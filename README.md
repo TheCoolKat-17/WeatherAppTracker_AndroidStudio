@@ -4,8 +4,6 @@ WeatherAppTracker is a mobile weather application developed in Android Studio as
 
 The application allows users to search for cities worldwide, save weather locations, monitor live weather conditions, and receive smart contextual recommendations based on environmental conditions.
 
-### Student Name: Fatima-Zahra Amod
-### Student Number: 224147XXX
 
 ---
 
